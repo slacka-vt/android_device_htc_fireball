@@ -3,7 +3,7 @@ $(call inherit-product, vendor/aokp/configs/common.mk)
 $(call inherit-product, vendor/aokp/configs/cdma.mk)
 
 # Enhanced NFC
-#$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/fireball/device_fireball.mk)
